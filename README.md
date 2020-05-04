@@ -2,7 +2,9 @@
 
 It has been long time that I wanted to write a post on how to automate API proxy deployment by only Platform API calls. 
 
-Most of the time I do démo with UI to my prospects on API Manager topics and I have always the same question coming from them: “How are we going to add this to our CI/CD pipeline.”  So I have decided to show by only using API calls how we can import your swagger to Anypoint Exchange, Create the proxy, deploy it, add SLA tiers, apply policies, tag it then activate monitoring with only one postman collection.
+Most of the time I do démo with UI to my prospects on API Manager topics and I have always the same question coming from them: “How are we going to add this to our CI/CD pipeline.”  
+
+So I have decided to show by only using API calls how we can import your swagger to Anypoint Exchange, Create the proxy, deploy it, add SLA tiers, apply policies, tag it then activate monitoring with only one postman collection.
 
 
 The steps the collection contains are:
