@@ -28,7 +28,7 @@ You should run by order the API Calls as it is already ordered in postman collec
 3. Your Business Group Name (the name of the business org to which you want to deploy)
 4. Your Environment Name ( the name of the environment to which your want to deploy)
 5. Your Environment client_id and client_secret (we need it to activate monitoring)
-6. ![Environment client id and client Secret](/images/env app id and secret.png)
+6. ![Environment client id Secret](/images/env_app_id_secret.png)
 7. Import the Postman Collection file to your Postman ( [GitHub repository](https://github.com/ozgurkarahan/Mulesoft-Api-Manager-CI-CD-Postman/blob/master/CI-CD%20Create%20Proxy%20API%20-%20Api%20Manager.postman_collection.json) )
 8. Import the Postman environment variables to your Postman ([GitHub Repository](https://github.com/ozgurkarahan/Mulesoft-Api-Manager-CI-CD-Postman/blob/master/CI-CD%20Create%20Proxy%20API%20-%20Api%20Manager.postman_environment.json))
 
