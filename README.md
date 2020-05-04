@@ -67,7 +67,7 @@ _**Once we have the access_token, org_id and env_id variables we can start to im
 ### 1 - Upload swagger to Exchange (POST)
 
 This request will add your swagger to exchange. Check the body of the request to customise the parameters. The important one is the _**asset**_: you should give the full path to your swagger file as value to asset. 
-[Image: image.png]
+![Image: image.png](/images/asset_param.png)
 ### 2 - Create an Api From Exchange (POST)
 
 Creates an API in Api Manager from an existing Exchange API (check body of the request if you want to customise it). It sets apiId postman environment variable from the response.
