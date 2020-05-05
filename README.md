@@ -54,7 +54,7 @@ _**The very first two steps are the preparation requests to get access token, en
 
 ### 0.1 - Get Access Token (POST)
 
-This steps gets calls the token endpoint to get an access_token to be used ad bearer token for the following steps.
+This steps calls the token endpoint to get an access_token to be used as bearer token for the following steps.
 
 * gets acces_token for the connected app that I have created in Anypoint Platform.
 * sets the acces_token in postman environment variable to use for the following requests
@@ -62,9 +62,9 @@ This steps gets calls the token endpoint to get an access_token to be used ad be
 ### 0.2 - Get Profile (org Id and Sandbox Env Id) (GET)
 
 For the most of the following steps you will need environment id and organisation id. This request calls the accounts/api/profile to get information on your platform (business org, env, ...). 
-The env_name and org_name variable let us to get the Ids from the response result
+The env_name and org_name variable let us to query the response result and extract Ids
 
-_**Once we have the access_token, org_id and env_id variables we can start to import the swagger to Exchange, create your api in api manager and depoy to runtime manager**_
+_**Once we have the variable set for: access_token, org_id and env_id we can start to import the swagger to Exchange, create your api in api manager and depoy to runtime manager**_
 
 ### 1 - Upload swagger to Exchange (POST)
 
