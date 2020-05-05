@@ -78,7 +78,7 @@ Creates an API in Api Manager from an existing Exchange API (check body of the r
 
 Creates a proxy for the given apiId, domainName(must be unique, it is part of your api url), env_id and env_name
 
-**_Now your API is imported to exchange, created in API Manager and deployed to Runtime Manager. The following steps are to customise your APIs: SLA Tiers (Subscription), Policies, Tag and activate monitoring on your API._ **
+_**Now your API is imported to exchange, created in API Manager and deployed to Runtime Manager. The following steps are to customise your APIs: SLA Tiers (Subscription), Policies, Tag and activate monitoring on your API.**_
 
 ### 4 - Add premium SLA tiers to an existing api (POST)
 
