@@ -64,7 +64,7 @@ This steps calls the token endpoint to get an access_token to be used as bearer 
 For the most of the following steps you will need environment id and organisation id. This request calls the accounts/api/profile to get information on your platform (business org, env, ...). 
 The env_name and org_name variable let us to query the response result and extract Ids
 
-_**Once we have the variable set for: access_token, org_id and env_id we can start to import the swagger to Exchange, create your api in api manager and depoy to runtime manager**_
+_**Once we have the variable set for: access_token, org_id and env_id, then we can import the swagger to Exchange, create your api in api manager and depoy the proxy instance to CloudHub via runtime manager**_
 
 ### 1 - Upload swagger to Exchange (POST)
 
